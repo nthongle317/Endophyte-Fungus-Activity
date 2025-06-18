@@ -1,0 +1,1 @@
+### Antimicrobial activities of endophytic fungi isolated from Plantago major L. (Plantaginaceae)
