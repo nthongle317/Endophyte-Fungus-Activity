@@ -15,7 +15,7 @@ setwd(path)
 
 for (sN in c("MD-H1", "MD-L1",  "MD-L2",  "MD-L3",  "MD-L4",  "MD-L5",  "MD-R1",  "MD-T1",  "MD-T10", "MD-T2")) {
 
-tree=read.tree(paste0("../results/", sN, "/MD-H1_top20_blast.aln.treefile"))
+tree=read.tree(paste0("../results/", sN, "/", sN, "_top20_blast.aln.treefile"))
 
 temp1=data.frame(seqN=as.phylo(tree)$tip.label)
 metaData=read.xlsx(paste0("../results/", sN, "/BLAST-short.xlsx"))
@@ -33,6 +33,6 @@ geom_hilight(df, aes(node=node, fill=Name), align="both", type = "gradient", gra
 geom_tree() + 
 geom_tiplab(aes(color=Name)) +
 theme_tree()
-ggsave(paste0(outp, "/", sN, "_tree.pdf"), height=7, width=10)
+ggsave(paste0("../results/", sN, "_tree.pdf"), height=7, width=10)
 
 }
