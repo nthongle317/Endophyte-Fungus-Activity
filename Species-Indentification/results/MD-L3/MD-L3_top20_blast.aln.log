@@ -1,0 +1,168 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    thong (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s ../results/MD-L3/MD-L3_top20_blast.aln
+Seed:    709176 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 19 10:38:38 2025
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../results/MD-L3/MD-L3_top20_blast.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 21 sequences with 534 columns, 9 distinct patterns
+0 parsimony-informative, 0 singleton sites, 534 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  MT913002.1    0.37%    passed    100.00%
+   2  MT928533.1    0.37%    passed    100.00%
+   3  KM520010.1    0.37%    passed    100.00%
+   4  KJ625631.1    0.37%    passed    100.00%
+   5  ON746571.1    0.37%    passed    100.00%
+   6  MK123443.1    0.37%    passed    100.00%
+   7  PP537918.1    0.37%    passed    100.00%
+   8  OP288215.1    0.37%    passed    100.00%
+   9  MZ157058.1    0.37%    passed    100.00%
+  10  MT993618.1    0.37%    passed    100.00%
+  11  MW513755.1    0.37%    passed    100.00%
+  12  MZ475288.1    0.37%    passed    100.00%
+  13  MZ475287.1    0.37%    passed    100.00%
+  14  MZ475286.1    0.37%    passed    100.00%
+  15  MK123444.1    0.37%    passed    100.00%
+  16  KU527801.2    0.56%    passed     99.99%
+  17  KR708966.1    0.56%    passed     99.98%
+  18  MT993622.1    0.56%    passed     99.98%
+  19  KX347464.1    0.75%    passed     99.99%
+  20  MN295188.1    0.94%    passed     99.95%
+  21  MD-L3         0.00%    passed     99.91%
+****  TOTAL         0.43%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MT928533.1 is identical to MT913002.1 but kept for subsequent analysis
+NOTE: MT993622.1 is identical to KR708966.1 but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KM520010.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: KJ625631.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: ON746571.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MK123443.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: PP537918.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: OP288215.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MZ157058.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MT993618.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MW513755.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MZ475288.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MZ475287.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MZ475286.1 (identical to MT913002.1) is ignored but added at the end
+NOTE: MK123444.1 (identical to MT913002.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ../results/MD-L3/MD-L3_top20_blast.aln.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test 22 DNA models (sample size: 534) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            740.301      13  1506.601     1507.301     1562.247
+  2  F81+F         739.590      16  1511.181     1512.233     1579.667
+  3  K2P           740.301      14  1508.601     1509.411     1568.527
+  4  HKY+F         739.590      17  1513.181     1514.367     1585.948
+  5  TNe           740.301      15  1510.601     1511.528     1574.807
+  6  TN+F          739.590      18  1515.181     1516.509     1592.228
+  7  K3P           740.301      15  1510.601     1511.528     1574.807
+  8  K3Pu+F        739.590      18  1515.181     1516.509     1592.228
+  9  TPM2+F        739.590      18  1515.181     1516.509     1592.228
+ 10  TPM2u+F       739.590      18  1515.181     1516.509     1592.228
+ 11  TPM3+F        739.590      18  1515.181     1516.509     1592.228
+ 12  TPM3u+F       739.590      18  1515.181     1516.509     1592.228
+ 13  TIMe          740.301      16  1512.601     1513.654     1581.088
+ 14  TIM+F         739.590      19  1517.181     1518.660     1598.508
+ 15  TIM2e         740.301      16  1512.601     1513.654     1581.088
+ 16  TIM2+F        739.590      19  1517.181     1518.660     1598.508
+ 17  TIM3e         740.301      16  1512.601     1513.654     1581.088
+ 18  TIM3+F        739.590      19  1517.181     1518.660     1598.508
+ 19  TVMe          740.301      17  1514.601     1515.788     1587.368
+ 20  TVM+F         739.590      20  1519.181     1520.818     1604.789
+ 21  SYM           740.301      18  1516.601     1517.930     1593.649
+ 22  GTR+F         739.590      21  1521.181     1522.986     1611.069
+Akaike Information Criterion:           JC
+Corrected Akaike Information Criterion: JC
+Bayesian Information Criterion:         JC
+Best-fit model: JC chosen according to BIC
+
+All model information printed to ../results/MD-L3/MD-L3_top20_blast.aln.model.gz
+CPU time for ModelFinder: 0.008 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.008 seconds (0h:0m:0s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -740.301
+Optimal log-likelihood: -740.301
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -740.286
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.009 second
+Computing log-likelihood of 98 initial trees ... 0.025 seconds
+Current best score: -740.286
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -740.288
+Iteration 10 / LogL: -740.301 / Time: 0h:0m:0s
+Iteration 20 / LogL: -740.301 / Time: 0h:0m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -740.288 / CPU time: 0.039
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 21: -740.288
+BETTER TREE FOUND at iteration 24: -740.288
+UPDATE BEST LOG-LIKELIHOOD: -740.288
+Iteration 30 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 41: -740.288
+Iteration 50 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 110 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 120 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 130 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 140 / LogL: -740.288 / Time: 0h:0m:0s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 142 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -740.288
+Optimal log-likelihood: -740.288
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -740.288
+Total tree length: 0.000
+
+Total number of iterations: 142
+CPU time used for tree search: 0.077 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.085 sec (0h:0m:0s)
+Total CPU time used: 0.083 sec (0h:0m:0s)
+Total wall-clock time used: 0.092 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../results/MD-L3/MD-L3_top20_blast.aln.iqtree
+  Maximum-likelihood tree:       ../results/MD-L3/MD-L3_top20_blast.aln.treefile
+  Likelihood distances:          ../results/MD-L3/MD-L3_top20_blast.aln.mldist
+  Screen log file:               ../results/MD-L3/MD-L3_top20_blast.aln.log
+
+Date and Time: Thu Jun 19 10:38:38 2025
