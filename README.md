@@ -19,6 +19,6 @@ Gia Phong Vu<sup>1†</sup>, Phuoc-Vinh Nguyen<sup>2,6†</sup>, Luong Hieu Ngan
 
 <sup>6</sup> Vietnam National University Ho Chi Minh City, Ho Chi Minh City, Vietnam
 
-<sup>7</sup> Faculty of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
+<sup>7</sup> School of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
 
 Email address: nguyenvugiangbac@ump.edu.vn
