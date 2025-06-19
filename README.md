@@ -5,14 +5,14 @@ This repository is part of publication:
 
 Antimicrobial activities of endophytic fungi isolated from Plantago major L. (Plantaginaceae)
 
-Gia Phong Vu&lt;sup>1&lt;/sup>, Phuoc-Vinh Nguyen&lt;sup>2,6&lt;/sup>, Luong Hieu Ngan&lt;sup>3&lt;/sup>, Thanh-Hoa Vo&lt;sup>2,6&lt;/sup>, Thu-Hoai Le&lt;sup>4&lt;/sup>, Nhat-Thong Le&lt;sup>5,6&lt;/sup>, Linh X.T Tran&lt;sup>7&lt;/sup>, Bac V.G Nguyen&lt;sup>7*&lt;/sup>
+Gia Phong Vu<sup>1</sup>, Phuoc-Vinh Nguyen<sup>2,6</sup>, Luong Hieu Ngan<sup>3</sup>, Thanh-Hoa Vo<sup>2,6</sup>, Thu-Hoai Le<sup>4</sup>, Nhat-Thong Le<sup>5,6</sup>, Linh X.T Tran<sup>7</sup>, Bac V.G Nguyen<sup>7\*</sup>
 
-&lt;sup>1&lt;/sup> Faculty of Medicine, Hong Bang International University, Vietnam
-&lt;sup>2&lt;/sup> University of Health Sciences, Ho Chi Minh City, Vietnam
-&lt;sup>3&lt;/sup> Faculty of Biology and Biotechnology, University of Science, Vietnam National University in Ho Chi Minh City
-&lt;sup>4&lt;/sup> The Center of Molecular Biomedicine, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
-&lt;sup>5&lt;/sup> Research Center for Infectious Diseases, International University, Ho Chi Minh City, Viet Nam
-&lt;sup>6&lt;/sup> Vietnam National University Ho Chi Minh City, Ho Chi Minh City, Vietnam
-&lt;sup>7&lt;/sup> Faculty of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
+<sup>1</sup> Faculty of Medicine, Hong Bang International University, Vietnam
+<sup>2</sup> University of Health Sciences, Ho Chi Minh City, Vietnam
+<sup>3</sup> Faculty of Biology and Biotechnology, University of Science, Vietnam National University in Ho Chi Minh City
+<sup>4</sup> The Center of Molecular Biomedicine, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
+<sup>5</sup> Research Center for Infectious Diseases, International University, Ho Chi Minh City, Viet Nam
+<sup>6</sup> Vietnam National University Ho Chi Minh City, Ho Chi Minh City, Vietnam
+<sup>7</sup> Faculty of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam
 
 Email address: nguyenvugiangbac@ump.edu.vn
